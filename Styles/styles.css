@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(253, 246, 236);
+}
+h1, h2{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#ClaseContenedor, #ClaseRow, #ClaseCol{
+    color: aliceblue;
+    background-color: hotpink;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/* Agregamos estilos a la barra de navegacion  */
+#NavPrincipal{
+    background-color: hotpink;
+}
+nav .nav-link,
+nav .navbar-brand,
+nav .nav-link {
+    color: antiquewhite;
+}
+nav .nav-link:hover,
+nav .navbar-brand:hover,
+nav .nav-link:hover {
+    color: darkred;
+}
+nav .navbar-toggler {
+    background-color: lightskyblue;
+}
